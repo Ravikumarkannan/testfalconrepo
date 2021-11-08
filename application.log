@@ -1,0 +1,9 @@
+2021-11-03 16:00:03,317  INFO [com.test.testfalcon.runner.TestNGRunner.main()] SampleTestScript:51 - Opening browser: chrome90
+2021-11-03 16:00:13,486  INFO [com.test.testfalcon.runner.TestNGRunner.main()] SampleTestScript:51 - Maximizing browser window
+2021-11-03 16:00:13,620  INFO [com.test.testfalcon.runner.TestNGRunner.main()] SampleTestScript:51 - entering text: Selenium
+2021-11-03 16:00:13,744  INFO [com.test.testfalcon.runner.TestNGRunner.main()] SampleTestScript:51 - pressing enter key
+2021-11-03 16:00:17,917  INFO [com.test.testfalcon.runner.TestNGRunner.main()] SampleTestScript:51 - waiting for 2 second
+2021-11-03 16:00:19,940  INFO [com.test.testfalcon.runner.TestNGRunner.main()] SampleTestScript:51 - verifying page title
+2021-11-03 16:00:19,951  INFO [com.test.testfalcon.runner.TestNGRunner.main()] VerificationManager:243 - PASS : Verifying String Message  Actual value : Selenium - Google Search is same as Expected value: Selenium - Google Search
+2021-11-03 16:00:24,229  INFO [com.test.testfalcon.runner.TestNGRunner.main()] SlackReportListener:51 - Please enable slack integration for sending notification to slack channel. Set 'slack.enable=true' for getting test results on your slack channel
+2021-11-03 16:00:24,344 ERROR [com.test.testfalcon.runner.TestNGRunner.main()] TestNGRunner:89 - Results are not uploaded because uploadResults flag is set to false
