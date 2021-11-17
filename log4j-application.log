@@ -779,3 +779,439 @@
   </test> <!-- SampleTest -->
 </suite> <!-- Falcon-Sample-MAC_catalina_chrome_90 -->
 
+2021-11-08 19:28:43 INFO  TestNGRunner:51 - Test Results are not uploading to JIRA. If you want to upload please set value of key 'jira.testresults' to 'true' in config.properties
+2021-11-08 19:28:43 INFO  TestNGEngineForDesiredSuites:51 - INFO: The value found with Environment variable Falcon is: Falcon
+2021-11-08 19:28:43 INFO  TestNGEngineForDesiredSuites:51 - INFO: The value found with Environment Module variable googletest is: googletest
+2021-11-08 19:28:43 INFO  TestNGEngineForDesiredSuites:51 - The value found with Environment variable MAC_catalina_chrome_90 is: MAC_catalina_chrome_90
+2021-11-08 19:28:43 INFO  TestNGEngineForDesiredSuites:51 - INFO: Clients Found: [Falcon]
+
+2021-11-08 19:28:43 INFO  TestNGEngineForDesiredSuites:51 - INFO: Modules Selected: [googletest]
+
+2021-11-08 19:28:43 INFO  TestNGEngineForDesiredSuites:51 - INFO: No Suite Found for the provided Module Name: []
+2021-11-08 19:28:43 INFO  SlackReportListener:51 - Please enable slack integration for sending notification to slack channel. Set 'slack.enable=true' for getting test results on your slack channel
+2021-11-08 19:28:43 ERROR TestNGRunner:89 - Results are not uploaded because uploadResults flag is set to false
+2021-11-09 12:14:26 INFO  TestNGRunner:51 - Test Results are not uploading to JIRA. If you want to upload please set value of key 'jira.testresults' to 'true' in config.properties
+2021-11-09 12:14:26 INFO  TestNGEngineForDesiredSuites:51 - INFO: The value found with Environment variable Falcon is: Falcon
+2021-11-09 12:14:26 INFO  TestNGEngineForDesiredSuites:51 - INFO: The value found with Environment Module variable googletest is: googletest
+2021-11-09 12:14:26 INFO  TestNGEngineForDesiredSuites:51 - The value found with Environment variable MAC_catalina_chrome_90 is: MAC_catalina_chrome_90
+2021-11-09 12:14:27 INFO  TestNGEngineForDesiredSuites:51 - INFO: Clients Found: [Falcon]
+
+2021-11-09 12:14:27 INFO  TestNGEngineForDesiredSuites:51 - INFO: Modules Selected: [googletest]
+
+2021-11-09 12:14:27 INFO  TestNGEngineForDesiredSuites:51 - INFO: No Suite Found for the provided Module Name: []
+2021-11-09 12:14:27 INFO  SlackReportListener:51 - Please enable slack integration for sending notification to slack channel. Set 'slack.enable=true' for getting test results on your slack channel
+2021-11-09 12:14:27 ERROR TestNGRunner:89 - Results are not uploaded because uploadResults flag is set to false
+2021-11-09 12:17:02 INFO  TestNGRunner:51 - Test Results are not uploading to JIRA. If you want to upload please set value of key 'jira.testresults' to 'true' in config.properties
+2021-11-09 12:17:03 INFO  TestNGEngineForDesiredSuites:51 - INFO: The value found with Environment variable Falcon is: Falcon
+2021-11-09 12:17:03 INFO  TestNGEngineForDesiredSuites:51 - INFO: The value found with Environment Module variable googletest is: googletest
+2021-11-09 12:17:03 INFO  TestNGEngineForDesiredSuites:51 - The value found with Environment variable MAC_catalina_chrome_90 is: MAC_catalina_chrome_90
+2021-11-09 12:17:04 INFO  TestNGEngineForDesiredSuites:51 - INFO: Clients Found: [Falcon]
+
+2021-11-09 12:17:04 INFO  TestNGEngineForDesiredSuites:51 - INFO: Modules Selected: [googletest]
+
+2021-11-09 12:17:04 INFO  TestNGEngineForDesiredSuites:51 - INFO: New Suite Created with name: Falcon-Suite-MAC_catalina_chrome_90
+2021-11-09 12:17:04 INFO  TestNGEngineForDesiredSuites:51 - <?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Falcon-Suite-MAC_catalina_chrome_90" guice-stage="DEVELOPMENT">
+  <parameter name="os" value="MAC"/>
+  <parameter name="osVersion" value="catalina"/>
+  <parameter name="browser" value="chrome"/>
+  <parameter name="browserVersion" value="90"/>
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="com.test.testfalcon.testscript.GoogleTest"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Falcon-Suite-MAC_catalina_chrome_90 -->
+
+2021-11-09 15:32:51 INFO  TestNGRunner:51 - Test Results are not uploading to JIRA. If you want to upload please set value of key 'jira.testresults' to 'true' in config.properties
+2021-11-09 15:32:51 INFO  TestNGEngineForDesiredSuites:51 - INFO: The value found with Environment variable Falcon is: Falcon
+2021-11-09 15:32:51 INFO  TestNGEngineForDesiredSuites:51 - INFO: The value found with Environment Module variable googletest is: googletest
+2021-11-09 15:32:51 INFO  TestNGEngineForDesiredSuites:51 - The value found with Environment variable MAC_catalina_chrome_90 is: MAC_catalina_chrome_90
+2021-11-09 15:32:52 INFO  TestNGEngineForDesiredSuites:51 - INFO: Clients Found: [Falcon]
+
+2021-11-09 15:32:52 INFO  TestNGEngineForDesiredSuites:51 - INFO: Modules Selected: [googletest]
+
+2021-11-09 15:32:52 INFO  TestNGEngineForDesiredSuites:51 - INFO: New Suite Created with name: Falcon-Suite-MAC_catalina_chrome_90
+2021-11-09 15:32:52 INFO  TestNGEngineForDesiredSuites:51 - <?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Falcon-Suite-MAC_catalina_chrome_90" guice-stage="DEVELOPMENT">
+  <parameter name="os" value="MAC"/>
+  <parameter name="osVersion" value="catalina"/>
+  <parameter name="browser" value="chrome"/>
+  <parameter name="browserVersion" value="90"/>
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="com.test.testfalcon.testscript.GoogleTest"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Falcon-Suite-MAC_catalina_chrome_90 -->
+
+2021-11-09 16:03:26 INFO  TestNGRunner:51 - Test Results are not uploading to JIRA. If you want to upload please set value of key 'jira.testresults' to 'true' in config.properties
+2021-11-09 16:03:26 INFO  TestNGEngineForDesiredSuites:51 - INFO: The value found with Environment variable Falcon is: Falcon
+2021-11-09 16:03:26 INFO  TestNGEngineForDesiredSuites:51 - INFO: The value found with Environment Module variable googletest is: googletest
+2021-11-09 16:03:26 INFO  TestNGEngineForDesiredSuites:51 - The value found with Environment variable MAC_catalina_chrome_90 is: MAC_catalina_chrome_90
+2021-11-09 16:03:31 INFO  TestNGEngineForDesiredSuites:51 - INFO: Clients Found: [Falcon]
+
+2021-11-09 16:03:31 INFO  TestNGEngineForDesiredSuites:51 - INFO: Modules Selected: [googletest]
+
+2021-11-09 16:03:31 INFO  TestNGEngineForDesiredSuites:51 - INFO: New Suite Created with name: Falcon-Suite-MAC_catalina_chrome_90
+2021-11-09 16:03:31 INFO  TestNGEngineForDesiredSuites:51 - <?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Falcon-Suite-MAC_catalina_chrome_90" guice-stage="DEVELOPMENT">
+  <parameter name="os" value="MAC"/>
+  <parameter name="osVersion" value="catalina"/>
+  <parameter name="browser" value="chrome"/>
+  <parameter name="browserVersion" value="90"/>
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="com.test.testfalcon.testscript.GoogleTest"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Falcon-Suite-MAC_catalina_chrome_90 -->
+
+2021-11-09 16:06:25 INFO  TestNGRunner:51 - Test Results are not uploading to JIRA. If you want to upload please set value of key 'jira.testresults' to 'true' in config.properties
+2021-11-09 16:06:25 INFO  TestNGEngineForDesiredSuites:51 - INFO: The value found with Environment variable Falcon is: Falcon
+2021-11-09 16:06:25 INFO  TestNGEngineForDesiredSuites:51 - INFO: The value found with Environment Module variable googletest is: googletest
+2021-11-09 16:06:25 INFO  TestNGEngineForDesiredSuites:51 - The value found with Environment variable MAC_catalina_chrome_90 is: MAC_catalina_chrome_90
+2021-11-09 16:06:26 INFO  TestNGEngineForDesiredSuites:51 - INFO: Clients Found: [Falcon]
+
+2021-11-09 16:06:26 INFO  TestNGEngineForDesiredSuites:51 - INFO: Modules Selected: [googletest]
+
+2021-11-09 16:06:26 INFO  TestNGEngineForDesiredSuites:51 - INFO: New Suite Created with name: Falcon-Suite-MAC_catalina_chrome_90
+2021-11-09 16:06:26 INFO  TestNGEngineForDesiredSuites:51 - <?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Falcon-Suite-MAC_catalina_chrome_90" guice-stage="DEVELOPMENT">
+  <parameter name="os" value="MAC"/>
+  <parameter name="osVersion" value="catalina"/>
+  <parameter name="browser" value="chrome"/>
+  <parameter name="browserVersion" value="90"/>
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="com.test.testfalcon.testscript.GoogleTest"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Falcon-Suite-MAC_catalina_chrome_90 -->
+
+2021-11-10 12:42:27 INFO  TestNGRunner:51 - Test Results are not uploading to JIRA. If you want to upload please set value of key 'jira.testresults' to 'true' in config.properties
+2021-11-10 12:42:27 INFO  TestNGEngineForDesiredSuites:51 - INFO: The value found with Environment variable Falcon is: Falcon
+2021-11-10 12:42:27 INFO  TestNGEngineForDesiredSuites:51 - INFO: The value found with Environment Module variable googletest is: googletest
+2021-11-10 12:42:27 INFO  TestNGEngineForDesiredSuites:51 - The value found with Environment variable MAC_catalina_chrome_90 is: MAC_catalina_chrome_90
+2021-11-10 12:42:31 INFO  TestNGEngineForDesiredSuites:51 - INFO: Clients Found: [Falcon]
+
+2021-11-10 12:42:31 INFO  TestNGEngineForDesiredSuites:51 - INFO: Modules Selected: [googletest]
+
+2021-11-10 12:42:31 INFO  TestNGEngineForDesiredSuites:51 - INFO: New Suite Created with name: Falcon-Suite-MAC_catalina_chrome_90
+2021-11-10 12:42:31 INFO  TestNGEngineForDesiredSuites:51 - <?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Falcon-Suite-MAC_catalina_chrome_90" guice-stage="DEVELOPMENT">
+  <parameter name="os" value="MAC"/>
+  <parameter name="osVersion" value="catalina"/>
+  <parameter name="browser" value="chrome"/>
+  <parameter name="browserVersion" value="90"/>
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="com.test.testfalcon.testscript.GoogleTest"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Falcon-Suite-MAC_catalina_chrome_90 -->
+
+2021-11-10 12:59:52 INFO  TestNGRunner:51 - Test Results are not uploading to JIRA. If you want to upload please set value of key 'jira.testresults' to 'true' in config.properties
+2021-11-10 12:59:52 INFO  TestNGEngineForDesiredSuites:51 - INFO: The value found with Environment variable Falcon is: Falcon
+2021-11-10 12:59:52 INFO  TestNGEngineForDesiredSuites:51 - INFO: The value found with Environment Module variable googletest is: googletest
+2021-11-10 12:59:52 INFO  TestNGEngineForDesiredSuites:51 - The value found with Environment variable MAC_catalina_chrome_90 is: MAC_catalina_chrome_90
+2021-11-10 12:59:53 INFO  TestNGEngineForDesiredSuites:51 - INFO: Clients Found: [Falcon]
+
+2021-11-10 12:59:53 INFO  TestNGEngineForDesiredSuites:51 - INFO: Modules Selected: [googletest]
+
+2021-11-10 12:59:53 INFO  TestNGEngineForDesiredSuites:51 - INFO: New Suite Created with name: Falcon-Suite-MAC_catalina_chrome_90
+2021-11-10 12:59:53 INFO  TestNGEngineForDesiredSuites:51 - <?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Falcon-Suite-MAC_catalina_chrome_90" guice-stage="DEVELOPMENT">
+  <parameter name="os" value="MAC"/>
+  <parameter name="osVersion" value="catalina"/>
+  <parameter name="browser" value="chrome"/>
+  <parameter name="browserVersion" value="90"/>
+  <test thread-count="5" name="GoogleTest">
+    <classes>
+      <class name="com.test.testfalcon.testscript.GoogleTest"/>
+    </classes>
+  </test> <!-- GoogleTest -->
+</suite> <!-- Falcon-Suite-MAC_catalina_chrome_90 -->
+
+2021-11-10 13:02:31 INFO  TestNGRunner:51 - Test Results are not uploading to JIRA. If you want to upload please set value of key 'jira.testresults' to 'true' in config.properties
+2021-11-10 13:02:31 INFO  TestNGEngineForDesiredSuites:51 - INFO: The value found with Environment variable Falcon is: Falcon
+2021-11-10 13:02:31 INFO  TestNGEngineForDesiredSuites:51 - INFO: The value found with Environment Module variable googletest is: googletest
+2021-11-10 13:02:31 INFO  TestNGEngineForDesiredSuites:51 - The value found with Environment variable MAC_catalina_chrome_90 is: MAC_catalina_chrome_90
+2021-11-10 13:02:32 INFO  TestNGEngineForDesiredSuites:51 - INFO: Clients Found: [Falcon]
+
+2021-11-10 13:02:32 INFO  TestNGEngineForDesiredSuites:51 - INFO: Modules Selected: [googletest]
+
+2021-11-10 13:02:32 INFO  TestNGEngineForDesiredSuites:51 - INFO: New Suite Created with name: Falcon-Suite-MAC_catalina_chrome_90
+2021-11-10 13:02:32 INFO  TestNGEngineForDesiredSuites:51 - <?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Falcon-Suite-MAC_catalina_chrome_90" guice-stage="DEVELOPMENT">
+  <parameter name="os" value="MAC"/>
+  <parameter name="osVersion" value="catalina"/>
+  <parameter name="browser" value="chrome"/>
+  <parameter name="browserVersion" value="90"/>
+  <test thread-count="5" name="GoogleTest">
+    <classes>
+      <class name="com.test.testfalcon.testscript.GoogleTest"/>
+    </classes>
+  </test> <!-- GoogleTest -->
+</suite> <!-- Falcon-Suite-MAC_catalina_chrome_90 -->
+
+2021-11-10 13:04:20 INFO  TestNGRunner:51 - Test Results are not uploading to JIRA. If you want to upload please set value of key 'jira.testresults' to 'true' in config.properties
+2021-11-10 13:04:20 INFO  TestNGEngineForDesiredSuites:51 - INFO: The value found with Environment variable Falcon is: Falcon
+2021-11-10 13:04:20 INFO  TestNGEngineForDesiredSuites:51 - INFO: The value found with Environment Module variable googletest is: googletest
+2021-11-10 13:04:20 INFO  TestNGEngineForDesiredSuites:51 - The value found with Environment variable MAC_catalina_chrome_90 is: MAC_catalina_chrome_90
+2021-11-10 13:04:21 INFO  TestNGEngineForDesiredSuites:51 - INFO: Clients Found: [Falcon]
+
+2021-11-10 13:04:21 INFO  TestNGEngineForDesiredSuites:51 - INFO: Modules Selected: [googletest]
+
+2021-11-10 13:04:22 INFO  TestNGEngineForDesiredSuites:51 - INFO: New Suite Created with name: Falcon-Suite-MAC_catalina_chrome_90
+2021-11-10 13:04:22 INFO  TestNGEngineForDesiredSuites:51 - <?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Falcon-Suite-MAC_catalina_chrome_90" guice-stage="DEVELOPMENT">
+  <parameter name="os" value="MAC"/>
+  <parameter name="osVersion" value="catalina"/>
+  <parameter name="browser" value="chrome"/>
+  <parameter name="browserVersion" value="90"/>
+  <test thread-count="5" name="GoogleTest">
+    <classes>
+      <class name="com.test.testfalcon.testscript.GoogleTest"/>
+    </classes>
+  </test> <!-- GoogleTest -->
+</suite> <!-- Falcon-Suite-MAC_catalina_chrome_90 -->
+
+2021-11-10 13:08:27 INFO  TestNGRunner:51 - Test Results are not uploading to JIRA. If you want to upload please set value of key 'jira.testresults' to 'true' in config.properties
+2021-11-10 13:08:27 INFO  TestNGEngineForDesiredSuites:51 - INFO: The value found with Environment variable Falcon is: Falcon
+2021-11-10 13:08:27 INFO  TestNGEngineForDesiredSuites:51 - INFO: The value found with Environment Module variable googletest is: googletest
+2021-11-10 13:08:27 INFO  TestNGEngineForDesiredSuites:51 - The value found with Environment variable MAC_catalina_chrome_90 is: MAC_catalina_chrome_90
+2021-11-10 13:08:28 INFO  TestNGEngineForDesiredSuites:51 - INFO: Clients Found: [Falcon]
+
+2021-11-10 13:08:28 INFO  TestNGEngineForDesiredSuites:51 - INFO: Modules Selected: [googletest]
+
+2021-11-10 13:08:28 INFO  TestNGEngineForDesiredSuites:51 - INFO: New Suite Created with name: Falcon-Suite-MAC_catalina_chrome_90
+2021-11-10 13:08:28 INFO  TestNGEngineForDesiredSuites:51 - <?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Falcon-Suite-MAC_catalina_chrome_90" guice-stage="DEVELOPMENT">
+  <parameter name="os" value="MAC"/>
+  <parameter name="osVersion" value="catalina"/>
+  <parameter name="browser" value="chrome"/>
+  <parameter name="browserVersion" value="90"/>
+  <test thread-count="5" name="GoogleTest">
+    <classes>
+      <class name="com.test.testfalcon.testscript.GoogleTest"/>
+    </classes>
+  </test> <!-- GoogleTest -->
+</suite> <!-- Falcon-Suite-MAC_catalina_chrome_90 -->
+
+2021-11-10 13:09:07 INFO  TestNGRunner:51 - Test Results are not uploading to JIRA. If you want to upload please set value of key 'jira.testresults' to 'true' in config.properties
+2021-11-10 13:09:07 INFO  TestNGEngineForDesiredSuites:51 - INFO: The value found with Environment variable Falcon is: Falcon
+2021-11-10 13:09:07 INFO  TestNGEngineForDesiredSuites:51 - INFO: The value found with Environment Module variable googletest is: googletest
+2021-11-10 13:09:07 INFO  TestNGEngineForDesiredSuites:51 - The value found with Environment variable MAC_catalina_chrome_90 is: MAC_catalina_chrome_90
+2021-11-10 13:09:08 INFO  TestNGEngineForDesiredSuites:51 - INFO: Clients Found: [Falcon]
+
+2021-11-10 13:09:08 INFO  TestNGEngineForDesiredSuites:51 - INFO: Modules Selected: [googletest]
+
+2021-11-10 13:09:08 INFO  TestNGEngineForDesiredSuites:51 - INFO: New Suite Created with name: Falcon-Suite-MAC_catalina_chrome_90
+2021-11-10 13:09:08 INFO  TestNGEngineForDesiredSuites:51 - <?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Falcon-Suite-MAC_catalina_chrome_90" guice-stage="DEVELOPMENT">
+  <parameter name="os" value="MAC"/>
+  <parameter name="osVersion" value="catalina"/>
+  <parameter name="browser" value="chrome"/>
+  <parameter name="browserVersion" value="90"/>
+  <test thread-count="5" name="GoogleTest">
+    <classes>
+      <class name="com.test.testfalcon.testscript.GoogleTest"/>
+    </classes>
+  </test> <!-- GoogleTest -->
+</suite> <!-- Falcon-Suite-MAC_catalina_chrome_90 -->
+
+2021-11-10 13:10:36 INFO  TestNGRunner:51 - Test Results are not uploading to JIRA. If you want to upload please set value of key 'jira.testresults' to 'true' in config.properties
+2021-11-10 13:10:36 INFO  TestNGEngineForDesiredSuites:51 - INFO: The value found with Environment variable Falcon is: Falcon
+2021-11-10 13:10:36 INFO  TestNGEngineForDesiredSuites:51 - INFO: The value found with Environment Module variable googletest is: googletest
+2021-11-10 13:10:36 INFO  TestNGEngineForDesiredSuites:51 - The value found with Environment variable MAC_catalina_chrome_90 is: MAC_catalina_chrome_90
+2021-11-10 13:10:37 INFO  TestNGEngineForDesiredSuites:51 - INFO: Clients Found: [Falcon]
+
+2021-11-10 13:10:37 INFO  TestNGEngineForDesiredSuites:51 - INFO: Modules Selected: [googletest]
+
+2021-11-10 13:10:37 INFO  TestNGEngineForDesiredSuites:51 - INFO: New Suite Created with name: Falcon-Suite-MAC_catalina_chrome_90
+2021-11-10 13:10:37 INFO  TestNGEngineForDesiredSuites:51 - <?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Falcon-Suite-MAC_catalina_chrome_90" guice-stage="DEVELOPMENT">
+  <parameter name="os" value="MAC"/>
+  <parameter name="osVersion" value="catalina"/>
+  <parameter name="browser" value="chrome"/>
+  <parameter name="browserVersion" value="90"/>
+  <test thread-count="5" name="GoogleTest">
+    <classes>
+      <class name="com.test.testfalcon.testscript.GoogleTest"/>
+    </classes>
+  </test> <!-- GoogleTest -->
+</suite> <!-- Falcon-Suite-MAC_catalina_chrome_90 -->
+
+2021-11-10 19:42:15 INFO  TestNGRunner:51 - Test Results are not uploading to JIRA. If you want to upload please set value of key 'jira.testresults' to 'true' in config.properties
+2021-11-10 19:42:15 INFO  TestNGEngineForDesiredSuites:51 - INFO: The value found with Environment variable Falcon is: Falcon
+2021-11-10 19:42:15 INFO  TestNGEngineForDesiredSuites:51 - INFO: The value found with Environment Module variable googletest is: googletest
+2021-11-10 19:42:15 INFO  TestNGEngineForDesiredSuites:51 - The value found with Environment variable MAC_catalina_chrome_90 is: MAC_catalina_chrome_90
+2021-11-10 19:42:22 INFO  TestNGEngineForDesiredSuites:51 - INFO: Clients Found: [Falcon]
+
+2021-11-10 19:42:22 INFO  TestNGEngineForDesiredSuites:51 - INFO: Modules Selected: [googletest]
+
+2021-11-10 19:42:22 INFO  TestNGEngineForDesiredSuites:51 - INFO: New Suite Created with name: Falcon-Suite-MAC_catalina_chrome_90
+2021-11-10 19:42:22 INFO  TestNGEngineForDesiredSuites:51 - <?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Falcon-Suite-MAC_catalina_chrome_90" guice-stage="DEVELOPMENT">
+  <parameter name="os" value="MAC"/>
+  <parameter name="osVersion" value="catalina"/>
+  <parameter name="browser" value="chrome"/>
+  <parameter name="browserVersion" value="90"/>
+  <test thread-count="5" name="GoogleTest">
+    <classes>
+      <class name="com.test.testfalcon.testscript.GoogleTest"/>
+    </classes>
+  </test> <!-- GoogleTest -->
+</suite> <!-- Falcon-Suite-MAC_catalina_chrome_90 -->
+
+2021-11-10 19:43:45 INFO  TestNGRunner:51 - Test Results are not uploading to JIRA. If you want to upload please set value of key 'jira.testresults' to 'true' in config.properties
+2021-11-10 19:43:45 INFO  TestNGEngineForDesiredSuites:51 - INFO: The value found with Environment variable Falcon is: Falcon
+2021-11-10 19:43:45 INFO  TestNGEngineForDesiredSuites:51 - INFO: The value found with Environment Module variable googletest is: googletest
+2021-11-10 19:43:45 INFO  TestNGEngineForDesiredSuites:51 - The value found with Environment variable MAC_catalina_chrome_90 is: MAC_catalina_chrome_90
+2021-11-10 19:43:47 INFO  TestNGEngineForDesiredSuites:51 - INFO: Clients Found: [Falcon]
+
+2021-11-10 19:43:47 INFO  TestNGEngineForDesiredSuites:51 - INFO: Modules Selected: [googletest]
+
+2021-11-10 19:43:47 INFO  TestNGEngineForDesiredSuites:51 - INFO: New Suite Created with name: Falcon-Suite-MAC_catalina_chrome_90
+2021-11-10 19:43:47 INFO  TestNGEngineForDesiredSuites:51 - <?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Falcon-Suite-MAC_catalina_chrome_90" guice-stage="DEVELOPMENT">
+  <parameter name="os" value="MAC"/>
+  <parameter name="osVersion" value="catalina"/>
+  <parameter name="browser" value="chrome"/>
+  <parameter name="browserVersion" value="90"/>
+  <test thread-count="5" name="GoogleTest">
+    <classes>
+      <class name="com.test.testfalcon.testscript.GoogleTest"/>
+    </classes>
+  </test> <!-- GoogleTest -->
+</suite> <!-- Falcon-Suite-MAC_catalina_chrome_90 -->
+
+2021-11-10 19:50:50 INFO  TestNGRunner:51 - Test Results are not uploading to JIRA. If you want to upload please set value of key 'jira.testresults' to 'true' in config.properties
+2021-11-10 19:50:50 INFO  TestNGEngineForDesiredSuites:51 - INFO: The value found with Environment variable Falcon is: Falcon
+2021-11-10 19:50:50 INFO  TestNGEngineForDesiredSuites:51 - INFO: The value found with Environment Module variable googletest is: googletest
+2021-11-10 19:50:50 INFO  TestNGEngineForDesiredSuites:51 - The value found with Environment variable MAC_catalina_chrome_90 is: MAC_catalina_chrome_90
+2021-11-10 19:50:51 INFO  TestNGEngineForDesiredSuites:51 - INFO: Clients Found: [Falcon]
+
+2021-11-10 19:50:51 INFO  TestNGEngineForDesiredSuites:51 - INFO: Modules Selected: [googletest]
+
+2021-11-10 19:50:52 INFO  TestNGEngineForDesiredSuites:51 - INFO: New Suite Created with name: Falcon-Suite-MAC_catalina_chrome_90
+2021-11-10 19:50:52 INFO  TestNGEngineForDesiredSuites:51 - <?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Falcon-Suite-MAC_catalina_chrome_90" guice-stage="DEVELOPMENT">
+  <parameter name="os" value="MAC"/>
+  <parameter name="osVersion" value="catalina"/>
+  <parameter name="browser" value="chrome"/>
+  <parameter name="browserVersion" value="90"/>
+  <test thread-count="5" name="GoogleTest">
+    <classes>
+      <class name="com.test.testfalcon.testscript.GoogleTest"/>
+    </classes>
+  </test> <!-- GoogleTest -->
+</suite> <!-- Falcon-Suite-MAC_catalina_chrome_90 -->
+
+2021-11-10 19:51:42 INFO  TestNGRunner:51 - Test Results are not uploading to JIRA. If you want to upload please set value of key 'jira.testresults' to 'true' in config.properties
+2021-11-10 19:51:42 INFO  TestNGEngineForDesiredSuites:51 - INFO: The value found with Environment variable Falcon is: Falcon
+2021-11-10 19:51:42 INFO  TestNGEngineForDesiredSuites:51 - INFO: The value found with Environment Module variable googletest is: googletest
+2021-11-10 19:51:42 INFO  TestNGEngineForDesiredSuites:51 - The value found with Environment variable MAC_catalina_chrome_90 is: MAC_catalina_chrome_90
+2021-11-10 19:51:43 INFO  TestNGEngineForDesiredSuites:51 - INFO: Clients Found: [Falcon]
+
+2021-11-10 19:51:43 INFO  TestNGEngineForDesiredSuites:51 - INFO: Modules Selected: [googletest]
+
+2021-11-10 19:51:43 INFO  TestNGEngineForDesiredSuites:51 - INFO: New Suite Created with name: Falcon-Suite-MAC_catalina_chrome_90
+2021-11-10 19:51:43 INFO  TestNGEngineForDesiredSuites:51 - <?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Falcon-Suite-MAC_catalina_chrome_90" guice-stage="DEVELOPMENT">
+  <parameter name="os" value="MAC"/>
+  <parameter name="osVersion" value="catalina"/>
+  <parameter name="browser" value="chrome"/>
+  <parameter name="browserVersion" value="90"/>
+  <test thread-count="5" name="GoogleTest">
+    <classes>
+      <class name="com.test.testfalcon.testscript.GoogleTest"/>
+    </classes>
+  </test> <!-- GoogleTest -->
+</suite> <!-- Falcon-Suite-MAC_catalina_chrome_90 -->
+
+2021-11-10 20:12:30 INFO  TestNGRunner:51 - Test Results are not uploading to JIRA. If you want to upload please set value of key 'jira.testresults' to 'true' in config.properties
+2021-11-10 20:12:31 INFO  TestNGEngineForDesiredSuites:51 - INFO: The value found with Environment variable Falcon is: Falcon
+2021-11-10 20:12:31 INFO  TestNGEngineForDesiredSuites:51 - INFO: The value found with Environment Module variable googletest is: googletest
+2021-11-10 20:12:31 INFO  TestNGEngineForDesiredSuites:51 - The value found with Environment variable MAC_catalina_chrome_90 is: MAC_catalina_chrome_90
+2021-11-10 20:12:37 INFO  TestNGEngineForDesiredSuites:51 - INFO: Clients Found: [Falcon]
+
+2021-11-10 20:12:37 INFO  TestNGEngineForDesiredSuites:51 - INFO: Modules Selected: [googletest]
+
+2021-11-10 20:12:37 INFO  TestNGEngineForDesiredSuites:51 - INFO: New Suite Created with name: Falcon-Suite-MAC_catalina_chrome_90
+2021-11-10 20:12:37 INFO  TestNGEngineForDesiredSuites:51 - <?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Falcon-Suite-MAC_catalina_chrome_90" guice-stage="DEVELOPMENT">
+  <parameter name="os" value="MAC"/>
+  <parameter name="osVersion" value="catalina"/>
+  <parameter name="browser" value="chrome"/>
+  <parameter name="browserVersion" value="90"/>
+  <test thread-count="5" name="GoogleTest">
+    <classes>
+      <class name="com.test.testfalcon.testscript.GoogleTest"/>
+    </classes>
+  </test> <!-- GoogleTest -->
+</suite> <!-- Falcon-Suite-MAC_catalina_chrome_90 -->
+
+2021-11-10 20:17:23 INFO  TestNGRunner:51 - Test Results are not uploading to JIRA. If you want to upload please set value of key 'jira.testresults' to 'true' in config.properties
+2021-11-10 20:17:23 INFO  TestNGEngineForDesiredSuites:51 - INFO: The value found with Environment variable Falcon is: Falcon
+2021-11-10 20:17:23 INFO  TestNGEngineForDesiredSuites:51 - INFO: The value found with Environment Module variable googletest is: googletest
+2021-11-10 20:17:23 INFO  TestNGEngineForDesiredSuites:51 - The value found with Environment variable MAC_catalina_chrome_90 is: MAC_catalina_chrome_90
+2021-11-10 20:17:25 INFO  TestNGEngineForDesiredSuites:51 - INFO: Clients Found: [Falcon]
+
+2021-11-10 20:17:25 INFO  TestNGEngineForDesiredSuites:51 - INFO: Modules Selected: [googletest]
+
+2021-11-10 20:17:25 INFO  TestNGEngineForDesiredSuites:51 - INFO: New Suite Created with name: Falcon-Suite-MAC_catalina_chrome_90
+2021-11-10 20:17:25 INFO  TestNGEngineForDesiredSuites:51 - <?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Falcon-Suite-MAC_catalina_chrome_90" guice-stage="DEVELOPMENT">
+  <parameter name="os" value="MAC"/>
+  <parameter name="osVersion" value="catalina"/>
+  <parameter name="browser" value="chrome"/>
+  <parameter name="browserVersion" value="90"/>
+  <test thread-count="5" name="GoogleTest">
+    <classes>
+      <class name="com.test.testfalcon.testscript.GoogleTest"/>
+    </classes>
+  </test> <!-- GoogleTest -->
+</suite> <!-- Falcon-Suite-MAC_catalina_chrome_90 -->
+
+2021-11-15 12:31:32 INFO  TestNGRunner:51 - Test Results are not uploading to JIRA. If you want to upload please set value of key 'jira.testresults' to 'true' in config.properties
+2021-11-15 12:31:32 INFO  TestNGEngineForDesiredSuites:51 - INFO: The value found with Environment variable Falcon is: Falcon
+2021-11-15 12:31:32 INFO  TestNGEngineForDesiredSuites:51 - INFO: The value found with Environment Module variable googletest is: googletest
+2021-11-15 12:31:32 INFO  TestNGEngineForDesiredSuites:51 - The value found with Environment variable MAC_catalina_chrome_90 is: MAC_catalina_chrome_90
+2021-11-15 12:31:34 INFO  TestNGEngineForDesiredSuites:51 - INFO: Clients Found: [Falcon]
+
+2021-11-15 12:31:34 INFO  TestNGEngineForDesiredSuites:51 - INFO: Modules Selected: [googletest]
+
+2021-11-15 12:31:34 INFO  TestNGEngineForDesiredSuites:51 - INFO: New Suite Created with name: Falcon-Suite-MAC_catalina_chrome_90
+2021-11-15 12:31:34 INFO  TestNGEngineForDesiredSuites:51 - <?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Falcon-Suite-MAC_catalina_chrome_90" guice-stage="DEVELOPMENT">
+  <parameter name="os" value="MAC"/>
+  <parameter name="osVersion" value="catalina"/>
+  <parameter name="browser" value="chrome"/>
+  <parameter name="browserVersion" value="90"/>
+  <test thread-count="5" name="GoogleTest">
+    <classes>
+      <class name="com.test.testfalcon.testscript.GoogleTest"/>
+    </classes>
+  </test> <!-- GoogleTest -->
+</suite> <!-- Falcon-Suite-MAC_catalina_chrome_90 -->
+

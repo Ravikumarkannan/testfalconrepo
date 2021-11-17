@@ -1,0 +1,12 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 5.291 sec <<< FAILURE!
+googleTest(com.test.testfalcon.GoogleTest)  Time elapsed: 3.666 sec  <<< FAILURE!
+java.lang.AssertionError: Unexpected error, please check with URL PKIX path building failed: sun.security.provider.certpath.SunCertPathBuilderException: unable to find valid certification path to requested target
+	at org.testng.Assert.fail(Assert.java:96)
+	at com.atmecs.falcon.automation.ui.selenium.Browser.validateURL(Browser.java:543)
+	at com.atmecs.falcon.automation.ui.selenium.Browser.openURL(Browser.java:380)
+	at com.test.testfalcon.helpers.HomePageHelper.googleTest(HomePageHelper.java:20)
+	at com.test.testfalcon.GoogleTest.googleTest(GoogleTest.java:26)
+

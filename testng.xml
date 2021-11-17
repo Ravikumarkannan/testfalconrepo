@@ -4,7 +4,7 @@
 <suite name="CompanySetup">
 
 	<suite-files>
-		<suite-file path="./src/main/resources/suitefile/googlesearch.xml" />
+		<suite-file path="./src/main/resources/suitefile/googletest.xml" />
 		<suite-file path="./src/main/resources/suitefile/contactus.xml" />
 	</suite-files>
 

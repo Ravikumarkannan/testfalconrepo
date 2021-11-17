@@ -31,7 +31,8 @@ public class SampleTestScript extends SampleTestSuiteBase {
 		browser.getWait().HardPause(2000);
 		String text = browser.getCurrentPageTitle();
 		report.info("verifying page title");
-		Verify.verifyString(text, "Selenium - Google Search", "Verifying String Message ");
+		Verify.verifyString(text, "Selenium - Google Search", "Verifying String Message");
+		
 	}
 	
 }

@@ -15,5 +15,7 @@ public class FilePathConstants {
 
 	public final static String HOME_LOCATOR_PATH = ATMECS_HOME
 			+ "HomeAtmecsIncDigitalSolutionsProductEngineeringServices.properties";
+	
+	public final static String Contact_US = ATMECS_HOME + "ContactUsAtmecsIncDigitalSolutionsProductEngineeringServices.properties";
 
 }

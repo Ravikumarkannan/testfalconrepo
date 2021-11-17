@@ -7,4 +7,7 @@ public class LocatorKeyContainer {
 	public static final String INPUT_2 = "emailid_input";
 	public static final String INPUT_3 = "phonenumber_input";
 	public static final String INPUT_4 = "companyname_input";
+	
+	public static final String SEARCH_INPUT = "search_input";
+	public static final String SEARCH_BUTTON = "search_button";
 }
